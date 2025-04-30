@@ -9,6 +9,6 @@ const userSchema = new mongoose.Schema(
   },
   { minimize: false }
 );
-
+//project ecommerce
 export const userModel =
   mongoose.models.user || mongoose.model("user", userSchema);

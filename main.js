@@ -47,6 +47,7 @@ app.use("/api/order", orderRouter);
 // Routes
 app.get("/", (req, res) => {
   res.send("API is working");
+  //project 1
 });
 
 //This is project related to ecommerce
