@@ -27,7 +27,8 @@ const connectDB = async () => {
         console.error("Error inserting initial products:", error);
       }
     }
-  });
+  });//kjfhdsgfvdshfj
+  //fksjdbhgfush
 
   await mongoose.connect(`${process.env.MONGO_URL}/store`);
 };
