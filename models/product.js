@@ -13,7 +13,8 @@ const productSchema = new mongoose.Schema({
       user: String,
       comment: String,
       rating: Number,
-    },// this is an module that can be changed to have the updates for the app
+    },// this is an module that can be changed to have the updates for the 
+    // app
   ],
   inStock: Boolean,
   freeShipping: Boolean,
