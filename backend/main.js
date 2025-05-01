@@ -11,11 +11,13 @@ import { orderRouter } from "./routes/orderRoute.js";
 
 // App Config
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;//added a port 4000 to run on any server
 
 const connectDB = async () => {
   mongoose.connection.on("connected", async () => {
     console.log("DB Connected");
+    //dsds
+    //dsad
 
     // Check if the products collection is empty
     const productCount = await Product.countDocuments();
