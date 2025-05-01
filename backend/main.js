@@ -16,9 +16,6 @@ const port = process.env.PORT || 4000;//added a port 4000 to run on any server
 const connectDB = async () => {
   mongoose.connection.on("connected", async () => {
     console.log("DB Connected");
-    //dsds
-    //dsad
-
     // Check if the products collection is empty
     const productCount = await Product.countDocuments();
     if (productCount === 0) {
